@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\Attribute:
+WinkelCo\MercadoLibreApi\Entity\Attribute:
   exclusion_policy: NONE
   properties:
     id:
