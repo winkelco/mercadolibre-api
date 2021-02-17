@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\Company:
+WinkelCo\MercadoLibreApi\Entity\Company:
   exclusion_policy: NONE
   properties:
     brand_name:
