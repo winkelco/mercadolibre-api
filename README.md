@@ -1,11 +1,11 @@
 # MercadoLibre API Client
 
-[![Build Status](https://scrutinizer-ci.com/g/zephia/mercadolibre/badges/build.png?b=master)](https://scrutinizer-ci.com/g/zephia/mercadolibre/build-status/master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/zephia/mercadolibre/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/zephia/mercadolibre/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/zephia/mercadolibre/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/zephia/mercadolibre/?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/zephia/mercadolibre/v/stable)](https://packagist.org/packages/zephia/mercadolibre)
-[![Total Downloads](https://poser.pugx.org/zephia/mercadolibre/downloads)](https://packagist.org/packages/zephia/mercadolibre)
-[![License](https://poser.pugx.org/zephia/mercadolibre/license)](https://packagist.org/packages/zephia/mercadolibre)
+[![Build Status](https://scrutinizer-ci.com/g/winkelco/mercadolibre-api/badges/build.png?b=master)](https://scrutinizer-ci.com/g/winkelco/mercadolibre-api/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/winkelco/mercadolibre-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/winkelco/mercadolibre-api/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/winkelco/mercadolibre-api/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/winkelco/mercadolibre-api/?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/winkelco/mercadolibre-api/v/stable)](https://packagist.org/packages/winkelco/mercadolibre-api)
+[![Total Downloads](https://poser.pugx.org/winkelco/mercadolibre-api/downloads)](https://packagist.org/packages/winkelco/mercadolibre-api)
+[![License](https://poser.pugx.org/winkelco/mercadolibre-api/license)](https://packagist.org/packages/winkelco/mercadolibre-api)
 
 ## Documentation
 
@@ -17,7 +17,7 @@ Official documentation and how to use the MercadoLibre API can be found at
 Using [composer](http://getcomposer.org)
 
 ```bash
-composer require zephia/mercadolibre
+composer require winkelco/mercadolibre-api
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ $serializer = \JMS\Serializer\SerializerBuilder::create()
    ->build();
    
 // Instantiate client.
-$client = new Zephia\MercadoLibre\Client\MercadoLibreClient(
+$client = new WinkelCo\MercadoLibreApi\Client\MercadoLibreClient(
     [],
     $serializer
 );
@@ -41,7 +41,7 @@ $ml_response = $client->showUser(1);
 
 var_dump($ml_response);
 
-// object(Zephia\MercadoLibre\Entity\User)
+// object(Winkelco\MercadoLibreApi\Entity\User)
 
 ```
 
