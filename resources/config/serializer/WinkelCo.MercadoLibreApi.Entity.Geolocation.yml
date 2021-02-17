@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\Geolocation:
+WinkelCo\MercadoLibreApi\Entity\Geolocation:
   exclusion_policy: NONE
   properties:
     latitude:
