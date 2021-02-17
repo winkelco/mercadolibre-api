@@ -2,8 +2,8 @@ WinkelCo\MercadoLibreApi\Entity\SearchLocation:
   exclusion_policy: NONE
   properties:
     city:
-      type: "Zephia\\MercadoLibreApi\\Entity\\Localization"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Localization"
     neighborhood:
-      type: "Zephia\\MercadoLibreApi\\Entity\\Localization"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Localization"
     state:
-      type: "Zephia\\MercadoLibreApi\\Entity\\Localization"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Localization"
