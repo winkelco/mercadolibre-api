@@ -1,8 +1,8 @@
-Zephia\MercadoLibre\Entity\CategoryPrediction:
+WinkelCo\MercadoLibreApi\Entity\CategoryPrediction:
   exclusion_policy: NONE
   properties:
     path_from_root:
-      type: "array<Zephia\\MercadoLibre\\Entity\\CategoryPrediction>"
+      type: "array<WinkelCo\\MercadoLibreApi\\Entity\\CategoryPrediction>"
     prediction_probability:
       type: "float"
     shipping_modes:
