@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\NotYetRated:
+WinkelCo\MercadoLibreApi\Entity\NotYetRated:
   exclusion_policy: NONE
   properties:
     paid:
