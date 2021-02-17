@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\ImmediatePayment:
+WinkelCo\MercadoLibreApi\Entity\ImmediatePayment:
   exclusion_policy: NONE
   properties:
     reasons:
