@@ -1,16 +1,16 @@
-Zephia\MercadoLibre\Entity\Status:
+WinkelCo\MercadoLibreApi\Entity\Status:
   exclusion_policy: NONE
   properties:
     billing:
-      type: "Zephia\\MercadoLibre\\Entity\\StatusAction"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\StatusAction"
     buy:
-      type: "Zephia\\MercadoLibre\\Entity\\StatusAction"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\StatusAction"
     confirmed_email:
       type: "boolean"
     immediate_payment:
       type: "boolean"
     list:
-      type: "Zephia\\MercadoLibre\\Entity\\StatusAction"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\StatusAction"
     mercadoenvios:
       type: "string"
     mercadopago_account_type:
@@ -20,7 +20,7 @@ Zephia\MercadoLibre\Entity\Status:
     required_action:
       type: "string"
     sell:
-      type: "Zephia\\MercadoLibre\\Entity\\StatusAction"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\StatusAction"
     site_status:
       type: "string"
     user_type:
