@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\StatusAction:
+WinkelCo\MercadoLibreApi\Entity\StatusAction:
   exclusion_policy: NONE
   properties:
     allow:
@@ -6,4 +6,4 @@ Zephia\MercadoLibre\Entity\StatusAction:
     codes:
       type: "array"
     immediate_payment:
-      type: "Zephia\\MercadoLibre\\Entity\\ImmediatePayment"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\ImmediatePayment"
