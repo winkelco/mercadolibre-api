@@ -1,5 +1,5 @@
 {
-  "name": "zephia/mercadolibre",
+  "name": "winkelco/mercadolibre-api",
   "description": "Mercado Libre API client",
   "type": "library",
   "license": "MIT",
@@ -11,7 +11,7 @@
   ],
   "require": {
     "symfony/yaml": "~2.1|~3.0",
-    "guzzlehttp/guzzle": "~5.0|~6.0",
+    "guzzlehttp/guzzle": "~5.0|~6.0|~7.0",
     "jms/serializer": "^1.3"
   },
   "require-dev": {
@@ -19,12 +19,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Zephia\\MercadoLibre\\": "src"
+      "WinkelCo\\MercadoLibreApi\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Zephia\\MercadoLibre\\Tests\\": "Tests"
+      "WinkelCo\\MercadoLibreApi\\Tests\\": "Tests"
     }
   }
 }
