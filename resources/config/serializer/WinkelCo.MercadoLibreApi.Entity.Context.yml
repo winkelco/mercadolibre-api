@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\Context:
+WinkelCo\MercadoLibreApi\Entity\Context:
   exclusion_policy: NONE
   properties:
     device:
