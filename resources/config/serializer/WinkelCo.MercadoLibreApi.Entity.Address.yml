@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\Address:
+WinkelCo\MercadoLibreApi\Entity\Address:
   exclusion_policy: NONE
   properties:
     address:
