@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\Category:
+WinkelCo\MercadoLibreApi\Entity\Category:
   exclusion_policy: NONE
   properties:
     id:
@@ -6,4 +6,4 @@ Zephia\MercadoLibre\Entity\Category:
     name:
       type: "string"
     path_from_root:
-      type: "array<Zephia\\MercadoLibre\\Entity\\Category>"
+      type: "array<WinkelCo\\MercadoLibreApi\\Entity\\Category>"
