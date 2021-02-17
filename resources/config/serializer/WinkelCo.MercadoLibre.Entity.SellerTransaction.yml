@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\SellerTransaction:
+WinkelCo\MercadoLibreApi\Entity\SellerTransaction:
   exclusion_policy: NONE
   properties:
     canceled:
@@ -8,6 +8,6 @@ Zephia\MercadoLibre\Entity\SellerTransaction:
     period:
       type: "string"
     ratings:
-      type: "Zephia\\MercadoLibre\\Entity\\Rating"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Rating"
     total:
       type: "integer"
