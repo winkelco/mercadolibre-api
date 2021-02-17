@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\BillData:
+WinkelCo\MercadoLibreApi\Entity\BillData:
   exclusion_policy: NONE
   properties:
     accept_credit_data:
