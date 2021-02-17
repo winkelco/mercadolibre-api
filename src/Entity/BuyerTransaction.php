@@ -8,12 +8,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Zephia\MercadoLibre\Entity;
+namespace WinkelCo\MercadoLibreApi\Entity;
 
 /**
  * Class BuyerTransaction
  *
- * @package Zephia\MercadoLibre\Entity
+ * @package WinkelCo\MercadoLibreApi\Entity
  * @author  Mauro Moreno<moreno.mauro.emanuel@gmail.com>
  */
 class BuyerTransaction
