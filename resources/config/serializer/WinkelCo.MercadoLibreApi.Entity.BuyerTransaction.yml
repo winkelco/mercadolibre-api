@@ -1,0 +1,15 @@
+WinkelCo\MercadoLibreApi\Entity\BuyerTransaction:
+  exclusion_policy: NONE
+  properties:
+    canceled:
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Canceled"
+    completed:
+      type: "integer"
+    not_yet_rated:
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\NotYetRated"
+    period:
+      type: "string"
+    total:
+      type: "integer"
+    unrated:
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Unrated"
