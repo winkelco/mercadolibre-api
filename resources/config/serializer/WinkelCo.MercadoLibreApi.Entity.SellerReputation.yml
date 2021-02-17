@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\SellerReputation:
+WinkelCo\MercadoLibreApi\Entity\SellerReputation:
   exclusion_policy: NONE
   properties:
     level_id:
@@ -6,4 +6,4 @@ Zephia\MercadoLibre\Entity\SellerReputation:
     power_seller_status:
       type: "string"
     transactions:
-      type: "Zephia\\MercadoLibre\\Entity\\SellerTransaction"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\SellerTransaction"
