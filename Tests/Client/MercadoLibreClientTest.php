@@ -1,44 +1,44 @@
 <?php
 
-namespace Zephia\MercadoLibre\Client\Tests;
+namespace WinkelCo\MercadoLibreApi\Client\Tests;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\Response;
 use JMS\Serializer\SerializerBuilder;
-use Zephia\MercadoLibre\Client\MercadoLibreClient;
-use Zephia\MercadoLibre\Entity\Address;
-use Zephia\MercadoLibre\Entity\Attribute;
-use Zephia\MercadoLibre\Entity\BillData;
-use Zephia\MercadoLibre\Entity\BuyerReputation;
-use Zephia\MercadoLibre\Entity\BuyerTransaction;
-use Zephia\MercadoLibre\Entity\Canceled;
-use Zephia\MercadoLibre\Entity\Category;
-use Zephia\MercadoLibre\Entity\CategoryPrediction;
-use Zephia\MercadoLibre\Entity\Company;
-use Zephia\MercadoLibre\Entity\Context;
-use Zephia\MercadoLibre\Entity\Credit;
-use Zephia\MercadoLibre\Entity\Description;
-use Zephia\MercadoLibre\Entity\Geolocation;
-use Zephia\MercadoLibre\Entity\Identification;
-use Zephia\MercadoLibre\Entity\ImmediatePayment;
-use Zephia\MercadoLibre\Entity\Item;
-use Zephia\MercadoLibre\Entity\Localization;
-use Zephia\MercadoLibre\Entity\Location;
-use Zephia\MercadoLibre\Entity\NotYetRated;
-use Zephia\MercadoLibre\Entity\Phone;
-use Zephia\MercadoLibre\Entity\Picture;
-use Zephia\MercadoLibre\Entity\Rating;
-use Zephia\MercadoLibre\Entity\SearchLocation;
-use Zephia\MercadoLibre\Entity\SellerAddress;
-use Zephia\MercadoLibre\Entity\SellerContact;
-use Zephia\MercadoLibre\Entity\SellerReputation;
-use Zephia\MercadoLibre\Entity\SellerTransaction;
-use Zephia\MercadoLibre\Entity\Shipping;
-use Zephia\MercadoLibre\Entity\Status;
-use Zephia\MercadoLibre\Entity\StatusAction;
-use Zephia\MercadoLibre\Entity\Unrated;
+use WinkelCo\MercadoLibreApi\Client\MercadoLibreClient;
+use WinkelCo\MercadoLibreApi\Entity\Address;
+use WinkelCo\MercadoLibreApi\Entity\Attribute;
+use WinkelCo\MercadoLibreApi\Entity\BillData;
+use WinkelCo\MercadoLibreApi\Entity\BuyerReputation;
+use WinkelCo\MercadoLibreApi\Entity\BuyerTransaction;
+use WinkelCo\MercadoLibreApi\Entity\Canceled;
+use WinkelCo\MercadoLibreApi\Entity\Category;
+use WinkelCo\MercadoLibreApi\Entity\CategoryPrediction;
+use WinkelCo\MercadoLibreApi\Entity\Company;
+use WinkelCo\MercadoLibreApi\Entity\Context;
+use WinkelCo\MercadoLibreApi\Entity\Credit;
+use WinkelCo\MercadoLibreApi\Entity\Description;
+use WinkelCo\MercadoLibreApi\Entity\Geolocation;
+use WinkelCo\MercadoLibreApi\Entity\Identification;
+use WinkelCo\MercadoLibreApi\Entity\ImmediatePayment;
+use WinkelCo\MercadoLibreApi\Entity\Item;
+use WinkelCo\MercadoLibreApi\Entity\Localization;
+use WinkelCo\MercadoLibreApi\Entity\Location;
+use WinkelCo\MercadoLibreApi\Entity\NotYetRated;
+use WinkelCo\MercadoLibreApi\Entity\Phone;
+use WinkelCo\MercadoLibreApi\Entity\Picture;
+use WinkelCo\MercadoLibreApi\Entity\Rating;
+use WinkelCo\MercadoLibreApi\Entity\SearchLocation;
+use WinkelCo\MercadoLibreApi\Entity\SellerAddress;
+use WinkelCo\MercadoLibreApi\Entity\SellerContact;
+use WinkelCo\MercadoLibreApi\Entity\SellerReputation;
+use WinkelCo\MercadoLibreApi\Entity\SellerTransaction;
+use WinkelCo\MercadoLibreApi\Entity\Shipping;
+use WinkelCo\MercadoLibreApi\Entity\Status;
+use WinkelCo\MercadoLibreApi\Entity\StatusAction;
+use WinkelCo\MercadoLibreApi\Entity\Unrated;
 
 class MercadoLibreClientTest extends \PHPUnit_Framework_TestCase
 {
