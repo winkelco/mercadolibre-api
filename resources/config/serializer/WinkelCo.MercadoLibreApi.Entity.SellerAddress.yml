@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\SellerAddress:
+WinkelCo\MercadoLibreApi\Entity\SellerAddress:
   exclusion_policy: NONE
   properties:
     id:
@@ -6,18 +6,18 @@ Zephia\MercadoLibre\Entity\SellerAddress:
     address_line:
       type: "string"
     city:
-      type: "Zephia\\MercadoLibre\\Entity\\Localization"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Localization"
     comment:
       type: "string"
     country:
-      type: "Zephia\\MercadoLibre\\Entity\\Localization"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Localization"
     latitude:
       type: "float"
     longitude:
       type: "float"
     search_location:
-      type: "Zephia\\MercadoLibre\\Entity\\SearchLocation"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\SearchLocation"
     state:
-      type: "Zephia\\MercadoLibre\\Entity\\Localization"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Localization"
     zip_code:
       type: "string"
