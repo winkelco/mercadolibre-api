@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\BuyerReputation:
+WinkelCo\MercadoLibreApi\Entity\BuyerReputation:
   exclusion_policy: NONE
   properties:
     canceled_transactions:
@@ -6,4 +6,4 @@ Zephia\MercadoLibre\Entity\BuyerReputation:
     tags:
       type: "array"
     transactions:
-      type: "Zephia\\MercadoLibre\\Entity\\BuyerTransaction"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\BuyerTransaction"
