@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\Package:
+WinkelCo\MercadoLibreApi\Entity\Package:
   exclusion_policy: NONE
   properties:
     id:
@@ -26,7 +26,7 @@ Zephia\MercadoLibre\Entity\Package:
     last_updated:
       type: "DateTime<'Y-m-d\\TH:i:s.uP'>"
     listing_details:
-      type: "array<Zephia\\MercadoLibre\\Entity\\ListingDetail>"
+      type: "array<WinkelCo\\MercadoLibreApi\\Entity\\ListingDetail>"
     next_promotion_pack_id:
       type: "string"
     promotion_pack_id:
