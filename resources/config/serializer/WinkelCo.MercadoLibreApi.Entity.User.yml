@@ -1,30 +1,30 @@
-Zephia\MercadoLibre\Entity\User:
+WinkelCo\MercadoLibreApi\Entity\User:
   exclusion_policy: NONE
   properties:
     id:
       type: "integer"
     address:
-      type: "Zephia\\MercadoLibre\\Entity\\Address"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Address"
     alternative_phone:
-      type: "Zephia\\MercadoLibre\\Entity\\Phone"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Phone"
     bill_data:
-      type: "Zephia\\MercadoLibre\\Entity\\BillData"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\BillData"
     buyer_reputation:
-      type: "Zephia\\MercadoLibre\\Entity\\BuyerReputation"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\BuyerReputation"
     country_id:
       type: "string"
     company:
-      type: "Zephia\\MercadoLibre\\Entity\\Company"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Company"
     context:
-      type: "Zephia\\MercadoLibre\\Entity\\Context"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Context"
     credit:
-      type: "Zephia\\MercadoLibre\\Entity\\Credit"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Credit"
     email:
       type: "string"
     first_name:
       type: "string"
     identification:
-      type: "Zephia\\MercadoLibre\\Entity\\Identification"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Identification"
     last_name:
       type: "string"
     logo:
@@ -34,7 +34,7 @@ Zephia\MercadoLibre\Entity\User:
     permalink:
       type: "string"
     phone:
-      type: "Zephia\\MercadoLibre\\Entity\\Phone"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Phone"
     points:
       type: "integer"
     registration_date:
@@ -44,13 +44,13 @@ Zephia\MercadoLibre\Entity\User:
     seller_experience:
       type: "string"
     seller_reputation:
-      type: "Zephia\\MercadoLibre\\Entity\\SellerReputation"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\SellerReputation"
     shipping_modes:
       type: "array"
     site_id:
       type: "string"
     status:
-      type: "Zephia\\MercadoLibre\\Entity\\Status"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Status"
     tags:
       type: "array"
     user_type:
