@@ -4,9 +4,9 @@ WinkelCo\MercadoLibreApi\Entity\Location:
     address_line:
       type: "string"
     city:
-      type: "Zephia\\MercadoLibre\\Entity\\Localization"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Localization"
     country:
-      type: "Zephia\\MercadoLibre\\Entity\\Localization"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Localization"
     latitude:
       type: "float"
     longitude:
