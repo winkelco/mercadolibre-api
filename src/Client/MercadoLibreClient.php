@@ -8,21 +8,21 @@
  * file that was distributed with this source code.
  */
 
-namespace Zephia\MercadoLibre\Client;
+namespace WinkelCo\MercadoLibreApi\Client;
 
 use GuzzleHttp\Client as GuzzleClient;
 use JMS\Serializer\SerializerInterface;
-use Zephia\MercadoLibre\Entity\Category;
-use Zephia\MercadoLibre\Entity\CategoryPrediction;
-use Zephia\MercadoLibre\Entity\Item;
-use Zephia\MercadoLibre\Entity\ItemList;
-use Zephia\MercadoLibre\Entity\Package;
-use Zephia\MercadoLibre\Entity\User;
+use WinkelCo\MercadoLibreApi\Entity\Category;
+use WinkelCo\MercadoLibreApi\Entity\CategoryPrediction;
+use WinkelCo\MercadoLibreApi\Entity\Item;
+use WinkelCo\MercadoLibreApi\Entity\ItemList;
+use WinkelCo\MercadoLibreApi\Entity\Package;
+use WinkelCo\MercadoLibreApi\Entity\User;
 
 /**
  * Class MercadoLibreClient
  *
- * @package Zephia\MercadoLibre\Client
+ * @package WinkelCo\MercadoLibreApi\Client
  * @author  Mauro Moreno<moreno.mauro.emanuel@gmail.com>
  */
 class MercadoLibreClient
