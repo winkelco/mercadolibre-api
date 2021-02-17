@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\Identification:
+WinkelCo\MercadoLibreApi\Entity\Identification:
   exclusion_policy: NONE
   properties:
     number:
