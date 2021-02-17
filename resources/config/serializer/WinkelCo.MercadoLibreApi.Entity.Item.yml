@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\Item:
+WinkelCo\MercadoLibreApi\Entity\Item:
   exclusion_policy: NONE
   properties:
     id:
@@ -6,7 +6,7 @@ Zephia\MercadoLibre\Entity\Item:
     accepts_mercadopago:
       type: "boolean"
     attributes:
-      type: "array<Zephia\\MercadoLibre\\Entity\\Attribute>"
+      type: "array<WinkelCo\\MercadoLibreApi\\Entity\\Attribute>"
     automatic_relist:
       type: "boolean"
     available_quantity:
@@ -32,13 +32,13 @@ Zephia\MercadoLibre\Entity\Item:
     description:
       type: "string"
     descriptions:
-      type: "array<Zephia\\MercadoLibre\\Entity\\Description>"
+      type: "array<WinkelCo\\MercadoLibreApi\\Entity\\Description>"
     differential_pricing:
       type: "string"
     domain_id:
       type: "string"
     geolocation:
-      type: "Zephia\\MercadoLibre\\Entity\\Geolocation"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Geolocation"
     initial_quantity:
       type: "integer"
     international_delivery_mode:
@@ -50,7 +50,7 @@ Zephia\MercadoLibre\Entity\Item:
     listing_type_id:
       type: "string"
     location:
-      type: "Zephia\\MercadoLibre\\Entity\\Location"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Location"
     non_mercado_pago_payment_methods:
       type: "array"
     official_store_id:
@@ -62,19 +62,19 @@ Zephia\MercadoLibre\Entity\Item:
     permalink:
       type: "string"
     pictures:
-      type: "array<Zephia\\MercadoLibre\\Entity\\Picture>"
+      type: "array<WinkelCo\\MercadoLibreApi\\Entity\\Picture>"
     price:
       type: "integer"
     secure_thumbnail:
       type: "string"
     seller_address:
-      type: "Zephia\\MercadoLibre\\Entity\\SellerAddress"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\SellerAddress"
     seller_contact:
-      type: "Zephia\\MercadoLibre\\Entity\\SellerContact"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\SellerContact"
     seller_id:
       type: "integer"
     shipping:
-      type: "Zephia\\MercadoLibre\\Entity\\Shipping"
+      type: "WinkelCo\\MercadoLibreApi\\Entity\\Shipping"
     site_id:
       type: "string"
     sold_quantity:
