@@ -1,4 +1,4 @@
-Zephia\MercadoLibre\Entity\Phone:
+WinkelCo\MercadoLibreApi\Entity\Phone:
   exclusion_policy: NONE
   properties:
     area_code:
